@@ -1,3 +1,10 @@
+____ BEGIN fork preamble ____
+
+- changing links to this fork's repo
+
+____ END fork preamble ____
+
+
 <p align="center">
 
   <h1 align="center">Mip-Splatting: Alias-free 3D Gaussian Splatting</h1>
@@ -37,11 +44,11 @@ We integrated an improved densification metric proposed in [Gaussian Opacity Fie
 # Installation
 Clone the repository and create an anaconda environment using
 ```
-git clone git@github.com:autonomousvision/mip-splatting.git
-cd mip-splatting
+git clone git@github.com:Mikey-E/mip-splatting-grocery.git
+cd mip-splatting-grocery
 
-conda create -y -n mip-splatting python=3.8
-conda activate mip-splatting
+conda create -y -n ms-g python=3.8
+conda activate ms-g
 
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 conda install cudatoolkit-dev=11.3 -c conda-forge
